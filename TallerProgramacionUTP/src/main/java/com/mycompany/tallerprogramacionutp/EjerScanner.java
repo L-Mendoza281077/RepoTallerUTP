@@ -6,7 +6,7 @@ package com.mycompany.tallerprogramacionutp;
 
 /**
  *
- * @author Mariana
+ * @author Luis Mendoza U24301701
  */
 import java.util.Scanner;
 
