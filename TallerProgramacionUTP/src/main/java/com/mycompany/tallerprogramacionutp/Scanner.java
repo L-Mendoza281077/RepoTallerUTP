@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.tallerprogramacionutp;
+import java.util.Scanner;
 
-/**
- *
- * @author Mariana
- */
 public class Scanner {
-    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Ingresa tu edad: ");
+        int edad = scanner.nextInt();
+        
+        System.out.println("Tu edad es: " + edad);
+        scanner.close();
+    }
 }
